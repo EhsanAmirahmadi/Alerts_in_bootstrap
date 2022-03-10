@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="icon" href="Bold.svg">
+    <link rel="stylesheet" href="BootStrap/bootstrap.min.css">
+    <style>
+        div.main {
+            height: 97vh;
+        }
+    </style>
+</head>
+
+<body class="bg-primary">
+
+    <div class="m-2 rounded-3 bg-dark text-light p-3 main">
+        <div class="container justify-content-center">
+
+            <div class="m-2">
+                <h6 class="display-6">Notifications</h6>
+            </div>
+
+            <div class="alert alert-primary alert-dismissible fade show p-2">
+                <button class="btn btn-primary position-relative m-1">
+                    Inbox
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        99+
+                        <span class="visually-hidden">unread message</span>
+                    </span>
+                </button>
+                <button class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+            </div>
+
+            <div class="alert alert-secondary alert-dismissible fade show p-2">
+                <button class="btn btn-secondary position-relative m-1">
+                    <img src="Bold.svg" alt=""> Mr.Jobs: <span class="text-warning">Hi did you read my message?</span>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle p-2 bg-danger">
+                        <span class="visually-hidden">unread message</span>
+                    </span>
+                </button>
+                <button class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+            </div>
+
+            <div class="alert alert-success alert-dismissible fade show p-2">
+                <button class="btn btn-success position-relative m-1">
+                    Mr.Johnson now is online!
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle p-2 bg-danger">
+                        <span class="visually-hidden">unread message</span>
+                    </span>
+                </button>
+                <button class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+            </div>
+
+            <div class="alert alert-warning alert-dismissible fade show p-2">
+                <button class="btn btn-warning position-relative m-1">
+                    Your amazon account have: <span class="text-danger">1267.55$</span> !
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle p-2 bg-danger">
+                        <span class="visually-hidden">unread message</span>
+                    </span>
+                </button>
+                <button class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="BootStrap/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
